@@ -2,7 +2,7 @@ url: https://robbiemast.github.io/
 baseurl:
 
 # Site settings
-title: Awesome Title
+title: WebAhead
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
@@ -63,3 +63,18 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
