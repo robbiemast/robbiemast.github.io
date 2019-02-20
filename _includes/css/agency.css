@@ -265,6 +265,12 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+.img-header {
+	vertical-align: middle;
+    max-height: 30px;
+    max-width: 100px;
+}
+
 header {
     text-align: center;
     color: #fff;
