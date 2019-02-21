@@ -266,7 +266,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .img-header {
-	vertical-align: middle;
+	display: inline-block;
+    vertical-align: middle;
     max-height: 30px;
     max-width: 100px;
 }
